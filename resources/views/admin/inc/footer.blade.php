@@ -5,9 +5,9 @@
         Bootstrap Template by
         <a
           class="text-primary"
-          href="http://www.iamabdus.com/"
+          href="http://www.urooj.com/"
           target="_blank"
-          >Abdus</a
+          >Urooj</a
         >.
       </p>
     </div>

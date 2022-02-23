@@ -92,11 +92,7 @@
               class="dropdown-toggle nav-link"
               data-toggle="dropdown"
             >
-              {{-- <img
-                src="/{{ Auth::user()->profile_photo_path }}"
-                class="user-image"
-                alt="User Image"
-              /> --}}
+
               <span class="d-none d-lg-inline-block">{{ Auth::user()->name }}</span>
             </button>
             <ul class="dropdown-menu dropdown-menu-right">
@@ -108,7 +104,7 @@
                   alt="User Image"
                 />
                 <div class="d-inline-block">
-                  Abdus Salam <small class="pt-1">{{ Auth::user()->email }}</small>
+                Urooj <small class="pt-1">{{ Auth::user()->email }}</small>
                 </div>
               </li>
 

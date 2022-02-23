@@ -7,12 +7,7 @@
             <div class="card-body">
                 <h4 class="card-title">Add Doctor</h4>
 
-                {{-- @if(Session()->has('message'))
-                <div class="alert alert-success">
-                    <button class="close" data-dismiss="alert">X</button>
-                    {{ session()->get('message') }}
-                </div>
-                @endif --}}
+
 
                 <form action="{{ route('add.doctor') }}" method="POST" enctype="multipart/form-data">
                     @csrf
